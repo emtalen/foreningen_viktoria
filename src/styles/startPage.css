@@ -1,0 +1,11 @@
+.bunny {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.bunny img {
+  text-align: center;
+  height: auto;
+  width: 10%;
+  padding: 3%;
+}
