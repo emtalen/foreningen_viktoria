@@ -5,6 +5,7 @@ import Galleri from './components/Galleri'
 import TheBoard from './components/TheBoard'
 import Donations from './components/Donations'
 import ApplyForm from './components/ApplyForm'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <TheBoard/>
       <Donations/>
       <ApplyForm/>
+      <Footer/>
     </div>
   )
 }
