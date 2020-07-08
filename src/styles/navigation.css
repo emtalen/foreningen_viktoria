@@ -1,0 +1,16 @@
+#navigation {
+  padding-bottom: 5%;
+}
+
+#header {
+  border-bottom: black 1px solid;
+  font-size: xx-large;
+  width: 31%;
+  display: inline-block;
+}
+.tab {
+  display: inline-block;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: large;
+}

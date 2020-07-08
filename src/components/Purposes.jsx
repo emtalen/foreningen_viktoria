@@ -3,8 +3,8 @@ import Navigation from "./Navigation";
 
 const Purposes = () => {
   return (
-    <>
-      <Navigation />
+    <div className='main-container'>
+      <div className='main-content'> <Navigation />
       <div>
         <p>
           Föreningen har som ändåmål att bedriva ideell verksamhet i med barn
@@ -20,8 +20,9 @@ const Purposes = () => {
           liknane som kanstödja den ansökande personen eller närstående, beslut
           fattas av föreningens Styrelse.
         </p>
-      </div>
-    </>
+      </div></div>
+     
+    </div>
   );
 };
 

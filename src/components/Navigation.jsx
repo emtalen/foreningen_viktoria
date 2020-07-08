@@ -1,15 +1,16 @@
 import React from "react";
+import "../styles/navigation.css";
 
 const Navigation = () => {
   return (
-    <>
-      <h1>FÖRENINGEN VICTORIA</h1>
-      <div>
-        <h2>Ändamål</h2>
-        <h2>Galleri</h2>
-        <h2>Styrelsen</h2>
+    <div id="navigation">
+      <div id="navigation-content">
+        <span id='header'>FÖRENINGEN VICTORIA</span><br/>
+        <span className="tab">Ändamål</span>
+        <span className="tab">Galleri</span>
+        <span className="tab">Styrelsen</span>
       </div>
-    </>
+    </div>
   );
 };
 
