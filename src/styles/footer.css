@@ -1,0 +1,12 @@
+#footer {
+  height: auto;
+  width: 100%;
+}
+
+#footer-info {
+  padding-top: 2%;
+}
+
+#footer-info p {
+  font-size: small;
+}
