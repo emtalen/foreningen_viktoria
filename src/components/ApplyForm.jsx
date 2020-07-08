@@ -3,8 +3,8 @@ import "../styles/apply.css";
 
 const ApplyForm = () => {
   return (
-    <div id="apply">
-      <div id='apply-content'>
+    <div className="main-container">
+      <div className='main-content'>
         <h1>ANSÖK</h1>
         <form id="applyform" action="">
           <label htmlFor="">Namn:</label>

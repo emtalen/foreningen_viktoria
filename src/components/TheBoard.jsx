@@ -4,8 +4,8 @@ import '../styles/theBoard.css'
 
 const TheBoard = () => {
   return (
-    <div id="the-board">
-      <div id="the-board-content">
+    <div className="main-container">
+      <div className="main-content">
         <Navigation />
         <h4>Ordförande: Arne Wåhlstedt 070-5890606</h4>
         <h4>Sekreterare: Anders Eriksson 070-4539686</h4>
