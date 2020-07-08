@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Navigation = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <h1>FÖRENINGEN VICTORIA</h1>
+      <div>
+        <h2>Ändamål</h2>
+        <h2>Galleri</h2>
+        <h2>Styrelsen</h2>
+      </div>
+    </>
+  );
+};
 
-export default Navigation
+export default Navigation;
