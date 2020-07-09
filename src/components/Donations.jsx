@@ -5,10 +5,10 @@ const Donations = () => {
   return (
     <div className="main-container">
       <div className="main-content">
-        <h1>DONERA</h1>
+        <span id='donations-header'>DONERA</span>
         <p>
           Vill du donera till Föreningen Victoria, vänligen ta kontakt med Arne
-          Wåhlstedt arne.enkoping@gmail.com.
+          Wåhlstedt <br /> arne.enkoping@gmail.com <br /> 070-5890606
         </p>
       </div>
     </div>

@@ -1,12 +1,14 @@
 #navigation {
   padding-bottom: 3%;
+  width: 100%;
 }
 
 #header {
   border-bottom: black 1px solid;
   font-size: xx-large;
-  width: 31%;
+  width: max-content;
   display: inline-block;
+  margin-bottom: 0.2%;
 }
 .tab {
   display: inline-block;

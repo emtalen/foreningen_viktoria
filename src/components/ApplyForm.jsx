@@ -5,7 +5,7 @@ const ApplyForm = () => {
   return (
     <div className="main-container">
       <div className='main-content'>
-        <h1>ANSÖK</h1>
+        <span id='apply-header'>ANSÖK</span>
         <form id="applyform" action="">
           <label htmlFor="">Namn:</label>
           <input type="text" />
