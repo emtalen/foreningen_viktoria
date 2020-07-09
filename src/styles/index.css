@@ -19,7 +19,9 @@ body {
   vertical-align: middle;
   line-height: 1.5;
   display: inline-block;
-  padding-right: 10%;
-  padding-left: 10%;
-  min-width: 80%;
+  width: 100%;
+}
+
+.main-content h1{
+  padding-bottom: 3%;
 }

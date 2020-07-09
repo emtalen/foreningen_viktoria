@@ -1,11 +1,12 @@
 import React from "react";
 import Navigation from "./Navigation";
+import '../styles/purpose.css'
 
 const Purposes = () => {
   return (
     <div className='main-container'>
       <div className='main-content'> <Navigation />
-      <div>
+      <div id='purpose-text'>
         <p>
           Föreningen har som ändåmål att bedriva ideell verksamhet i med barn
           och ungdomar med särskilda behov / functionsnedsättning from av vara
