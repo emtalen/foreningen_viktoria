@@ -7,5 +7,11 @@
   text-align: center;
   height: auto;
   width: 10%;
-  padding: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.bunny span {
+  width: max-content;
+  border-bottom: white 1px solid;
 }

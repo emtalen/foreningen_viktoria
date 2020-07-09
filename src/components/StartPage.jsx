@@ -8,8 +8,10 @@ const StartPage = () => {
       <div className="main-content">
         <Navigation />
         <div className="bunny">
-          <img src="/images/bunny-right.png" alt="Bunny" />
-          <img src="/images/bunny-left.png" alt="Bunny" />
+          <span>
+            <img src="/images/bunny-right.png" alt="Bunny" />
+            <img src="/images/bunny-left.png" alt="Bunny" />
+          </span>
         </div>
       </div>
     </div>
