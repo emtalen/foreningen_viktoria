@@ -2,8 +2,10 @@ import React from "react";
 import "../styles/startPage.css";
 import Navigation from "./Navigation";
 
+
 const StartPage = () => {
   return (
+    <>
     <div className="main-container">
       <div className="main-content">
         <Navigation />
@@ -15,6 +17,8 @@ const StartPage = () => {
         </div>
       </div>
     </div>
+   
+    </>
   );
 };
 

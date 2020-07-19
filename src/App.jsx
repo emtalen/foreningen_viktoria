@@ -1,23 +1,22 @@
 import React from 'react'
 import StartPage from './components/StartPage'
-import Purposes from './components/Purposes'
-import Galleri from './components/Galleri'
-import TheBoard from './components/TheBoard'
-import Donations from './components/Donations'
-import ApplyForm from './components/ApplyForm'
-import Footer from "./components/Footer";
-
+import Purposes from "./components/Purposes";
+import { Switch, Route} from 'react-router-dom';
+import { CSSTransition, TransitionGroup} from 'react-transition-group'
 const App = () => {
   return (
-    <div>
+    <>
       <StartPage/>
-      <Purposes/>
-      <Galleri/>
-      <TheBoard/>
-      <Donations/>
-      <ApplyForm/>
-     <Footer/>
-    </div>
+      <Route render={({ location}) => (
+        <TransitionGroup>
+          <CSSTransition key={location.key} timeout={300} classNames='fade'>
+            <Switch location={location}>
+              <Route exact path='/' component={Purposes}></Route>
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+      )} />
+    </>
   )
 }
 
