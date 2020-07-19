@@ -16,6 +16,7 @@ const Navigation = () => {
           smooth={true}
           offset={0}
           duration={500}
+          isDynamic={true}
         >
           Ändamål
         </Link>
@@ -27,6 +28,7 @@ const Navigation = () => {
           smooth={true}
           offset={0}
           duration={500}
+          isDynamic={true}
         >
           Galleri
         </Link>
@@ -38,6 +40,7 @@ const Navigation = () => {
           smooth={true}
           offset={0}
           duration={500}
+          isDynamic={true}
         >
           Styrelsen
         </Link>
