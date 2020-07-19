@@ -17,3 +17,8 @@
   font-size: 180%;
   cursor: pointer;
 }
+
+#navigation-content > .active {
+    font-size: 250%;
+    border-bottom: 1px solid white;
+}

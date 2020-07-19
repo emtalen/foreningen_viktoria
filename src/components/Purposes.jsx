@@ -1,18 +1,11 @@
 import React from "react";
 import Navigation from "./Navigation";
 import '../styles/purpose.css'
-import Galleri from "./Galleri";
-import TheBoard from "./TheBoard";
-import Donations from "./Donations";
-import ApplyForm from "./ApplyForm";
-import Footer from "./Footer";
 
 const Purposes = () => {
   return (
-    <>
       <div className="main-container" id='purposes'>
         <div className="main-content">
-          {" "}
           <Navigation />
           <div id="purpose-text">
             <p>
@@ -32,12 +25,6 @@ const Purposes = () => {
           </div>
         </div>
       </div>
-      <Galleri />
-      <TheBoard />
-      <Donations />
-      <ApplyForm />
-      <Footer />
-    </>
   );
 };
 
