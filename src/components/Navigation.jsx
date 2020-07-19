@@ -14,8 +14,8 @@ const Navigation = () => {
           to="purposes"
           spy={true}
           smooth={true}
-          offset={-550}
-          duration={300}
+          offset={0}
+          duration={100}
         >
           Ändamål
         </Link>
@@ -25,8 +25,8 @@ const Navigation = () => {
           to="galleri"
           spy={true}
           smooth={true}
-          offset={-550}
-          duration={300}
+          offset={0}
+          duration={100}
         >
           Galleri
         </Link>
@@ -36,8 +36,8 @@ const Navigation = () => {
           to="the-board"
           spy={true}
           smooth={true}
-          offset={-550}
-          duration={300}
+          offset={0}
+          duration={100}
         >
           Styrelsen
         </Link>
