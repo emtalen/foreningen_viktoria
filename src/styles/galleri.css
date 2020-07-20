@@ -1,5 +1,5 @@
 .slide-container {
-  padding: 5%;
+  padding: 1%;
   width: 70%;
   display: inline-block;
   text-align: center;
@@ -10,6 +10,6 @@
   text-align: center;
 }
 
-.each-slide > span {
+.each-slide > img {
   text-align: center;
 }
