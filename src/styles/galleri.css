@@ -1,0 +1,25 @@
+.slide-container {
+    width: 50%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 50%;
+  height: 300px;
+  width: 50%;
+}
+
+.each-slide > span {
+  padding: 20px;
+  font-size: 45px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.images-wrap {
+  width: 50%;
+}
