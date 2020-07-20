@@ -43,7 +43,7 @@ const SlideShow = () => {
           return (
             <div className="each-slide" key={slide.id}>
               <div>
-                <span> <img src={slide.img} alt="" /> </span>
+                <span> <img src={slide.img} alt={slide.id} /> </span>
                 
               </div>
             </div>

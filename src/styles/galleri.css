@@ -1,24 +1,17 @@
 .slide-container {
-    width: 50%;
-  z-index: 1;
-  overflow: hidden;
+  padding: 5%;
+  width: 70%;
+  display: inline-block;
+  text-align: center;
 }
 
 .each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: 50%;
-  height: 300px;
-  width: 50%;
+  display: inline-block;
+  text-align: center;
 }
 
 .each-slide > span {
-  padding: 20px;
-  font-size: 45px;
-  background: #ffffff;
   text-align: center;
-  color: black;
 }
 
 .images-wrap {
