@@ -7,7 +7,7 @@ const properties = {
   transitionDuration: 500,
   infinite: true,
   indicators: true,
-  arrows: true,
+  arrows: false,
   onChange: (oldIndex, newIndex) => {
     console.log(`slide transition from ${oldIndex} to ${newIndex}`);
   },
@@ -17,23 +17,23 @@ const SlideShow = () => {
   const slideImages = [
     {
       id: "1",
-      img: "/images/Victoria 1_small.jpeg",
+      img: "/images/Victoria_1_small.jpeg",
     },
     {
       id: "2",
-      img: "/images/Victoria 2_small.jpeg",
+      img: "/images/Victoria_2_small.jpeg",
     },
     {
       id: "3",
-      img: "/images/Victoria 3_small.jpeg",
+      img: "/images/Victoria_3_small.jpeg",
     },
     {
       id: "4",
-      img: "/images/Victoria 4_small.jpeg",
+      img: "/images/Victoria_4_small.jpeg",
     },
     {
       id: "5",
-      img: "/images/Victoria 5_small.jpeg",
+      img: "/images/Victoria_5_small.jpeg",
     },
   ];
   return (
@@ -43,7 +43,8 @@ const SlideShow = () => {
           return (
             <div className="each-slide" key={slide.id}>
               <div>
-                <span> <p>this is a slide</p>  {slide.img}</span>
+                <span> <img src={slide.img} alt="" /> </span>
+                
               </div>
             </div>
           );
