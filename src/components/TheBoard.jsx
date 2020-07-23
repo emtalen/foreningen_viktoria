@@ -4,7 +4,7 @@ import '../styles/theBoard.css'
 
 const TheBoard = () => {
   return (
-    <div className="main-container">
+    <div className="main-container" id="the-board">
       <div className="main-content">
         <Navigation />
         <h4>Ordförande: Arne Wåhlstedt 070-5890606</h4>

@@ -1,25 +1,23 @@
-import React from 'react'
-import StartPage from './components/StartPage'
-import Purposes from './components/Purposes'
-import Galleri from './components/Galleri'
-import TheBoard from './components/TheBoard'
-import Donations from './components/Donations'
-import ApplyForm from './components/ApplyForm'
-import Footer from "./components/Footer";
-
+import React from "react";
+import StartPage from "./components/StartPage";
+import { Switch, Route } from "react-router-dom";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 const App = () => {
   return (
-    <div>
-      <StartPage/>
-      <Purposes/>
-      <Galleri/>
-      <TheBoard/>
-      <Donations/>
-      <ApplyForm/>
-     <Footer/>
-    </div>
-  )
-}
+    <>
+      <Route
+        render={({ location }) => (
+          <TransitionGroup>
+            <CSSTransition key={location.key} timeout={500} classNames="fade">
+              <Switch location={location}>
+                <Route exact path="/" component={StartPage}></Route>
+              </Switch>
+            </CSSTransition>
+          </TransitionGroup>
+        )}
+      />
+    </>
+  );
+};
 
-export default App
-
+export default App;
