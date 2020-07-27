@@ -7,6 +7,7 @@ import TheBoard from "./TheBoard";
 import Donations from "./Donations";
 import ApplyForm from "./ApplyForm";
 import Footer from "./Footer";
+import { Link } from "react-scroll";
 
 const StartPage = () => {
   return (
@@ -16,8 +17,23 @@ const StartPage = () => {
           <Navigation />
           <div className="bunny">
             <span>
-              <img src="/images/bunny-right.png" alt="Bunny" />
-              <img src="/images/bunny-left.png" alt="Bunny" />
+              <Link
+          activeClass="active"
+          to="donate"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={700}
+        > <img src="/images/1.png" alt="Bunny" /></Link>
+             <Link
+          activeClass=""
+          to="apply"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={700}
+        ><img src="/images/2.png" alt="Bunny" /></Link>
+              
             </span>
           </div>
         </div>

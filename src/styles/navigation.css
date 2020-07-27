@@ -19,6 +19,5 @@
 }
 
 #navigation-content > .active {
-    font-size: 250%;
-    border-bottom: 1px solid white;
+  font-size: 270%;
 }
