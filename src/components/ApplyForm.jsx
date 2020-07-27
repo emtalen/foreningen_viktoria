@@ -9,10 +9,10 @@ const ApplyForm = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "applicants_foreningen_victoria",
-        "applicants",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         e.target,
-        "user_lpLITTsEfzW8hWs6z2ACY"
+        process.env.REACT_APP_USER_ID
       )
       .then(
         (result) => {
