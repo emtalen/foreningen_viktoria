@@ -22,9 +22,8 @@ const ApplyForm = () => {
           );
         },
         (error) => {
-          console.log(error.text);
           setMessage(
-            "Tyvärr gick något snett, har du fyllt i alla fälten korrekt?"
+            "Tyvärr gick något snett här och det beror inte på dig. Vänligen kontakta oss så att vi kan undersöka problemet."
           );
         }
       );
