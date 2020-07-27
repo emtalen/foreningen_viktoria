@@ -3,7 +3,7 @@ import "../styles/apply.css";
 
 const ApplyForm = () => {
   return (
-    <div className="main-container">
+    <div className="main-container" id='apply'>
       <div className='main-content'>
         <span id='apply-header'>ANSÖK</span>
         <form id="applyform" action="">

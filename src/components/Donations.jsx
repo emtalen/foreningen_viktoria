@@ -3,7 +3,7 @@ import '../styles/donations.css'
 
 const Donations = () => {
   return (
-    <div className="main-container">
+    <div className="main-container" id='donate'>
       <div className="main-content">
         <span id='donations-header'>DONERA</span>
         <p>
