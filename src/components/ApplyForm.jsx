@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "../styles/apply.css";
+import { animateScroll } from "react-scroll";
 
 const ApplyForm = () => {
   const [message, setMessage] = useState("");
@@ -28,10 +29,14 @@ const ApplyForm = () => {
         }
       );
   };
+
+  const scrollToTop = () => {
+    animateScroll.scrollToTop();
+  };
   return (
     <div className="main-container" id="apply">
       <div className="main-content">
-        <span id="apply-header">ANSÖK</span>
+        <span id="apply-header">ANSÖK OM STÖD</span>
         <br />
         <form id="applyform" onSubmit={sendEmail}>
           <input
@@ -58,7 +63,7 @@ const ApplyForm = () => {
             required="true"
           />
           <br />
-          <input
+          <textarea
             placeholder="Motivering:"
             id="motivation"
             type="text"
@@ -75,6 +80,7 @@ const ApplyForm = () => {
         </form>
         <p id="message">{message}</p>
         <p>Vid frågor, vänligen kontakta Arne Wåhlstedt</p>
+        <button className='to-the-topp' onClick={scrollToTop}></button>
       </div>
     </div>
   );

@@ -9,6 +9,7 @@
   width: max-content;
   display: inline-block;
   margin-bottom: 0.2%;
+  cursor: pointer;
 }
 .tab {
   display: inline-block;
