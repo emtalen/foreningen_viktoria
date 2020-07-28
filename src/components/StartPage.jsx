@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
 const StartPage = () => {
   return (
     <>
-      <div className="main-container-extra">
+      <div className="main-container-extra" id='start-page'>
         <div className="main-content">
           <Navigation />
           <div className="bunny">

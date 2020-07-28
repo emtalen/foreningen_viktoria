@@ -6,7 +6,18 @@ const Navigation = () => {
   return (
     <div id="navigation">
       <div id="navigation-content">
-        <span id="header">FÖRENINGEN VICTORIA</span>
+        <span></span>
+        <Link
+          id="header"
+          activeClass=""
+          to="start-page"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={700}
+        >
+          FÖRENINGEN VICTORIA
+        </Link>
         <br />
         <Link
           className="tab"

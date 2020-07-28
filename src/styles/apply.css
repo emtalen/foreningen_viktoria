@@ -1,3 +1,70 @@
 #apply-header {
-    font-size: 300%;
+  font-size: 300%;
+}
+
+#name {
+  text-transform: capitalize;
+}
+
+#message {
+  padding-bottom: 2%;
+}
+
+#applyform {
+  text-align: center;
+  display: inline-block;
+  width: 80%;
+}
+
+#applyform input {
+  width: inherit;
+  font-size: large;
+  text-align: center;
+  height: 30%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0.5%;
+  opacity: 0.6;
+  border: none;
+  color: black;
+  outline: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+#applyform textarea {
+  width: inherit;
+  font-size: large;
+  text-align: center;
+  height: 30%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0.5%;
+  opacity: 0.6;
+  border: none;
+  color: black;
+  outline: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+#motivation {
+  word-break: break-word;
+}
+
+#submit-button {
+  margin: 3%;
+  width: 25%;
+  height: auto;
+  padding: 1%;
+  background-color: white;
+  border: none;
+  border-radius: 6%;
+  opacity: 0.6;
+  font-family: "Libre Baskerville", serif;
+  font-size: large;
+  outline: none;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  opacity: 1;
 }
