@@ -8,6 +8,7 @@ const ApplyForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    debugger
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -17,12 +18,14 @@ const ApplyForm = () => {
       )
       .then(
         (result) => {
+          debugger
           document.getElementById("applyform").reset();
           setMessage(
             "Tack för din ansökan. Vi återkopplar dig så snart som möjligt."
           );
         },
         (error) => {
+          debugger
           setMessage(
             "Tyvärr gick något snett här och det beror inte på dig. Vänligen kontakta oss så att vi kan undersöka problemet."
           );

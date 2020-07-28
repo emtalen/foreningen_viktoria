@@ -1,6 +1,21 @@
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  .main-container {
+    height: fit-content;
+  }
+}
+/* Tabled Portrait */
+@media screen and (max-width: 400px) {
+  #submit-button {
+    width: 100%;
+    background-color: aqua;
+    font-size: 20px;
+  }
+}
+
 body {
-  background-color: #ADC4CF;
-  font-family: 'Libre Baskerville', serif;
+  background-color: #adc4cf;
+  font-family: "Libre Baskerville", serif;
   text-align: center;
   font-weight: 100;
 }
@@ -8,8 +23,7 @@ body {
 .main-container {
   height: 100vh;
   width: 100%;
-  /* position: relative; */
-  /* overflow: hidden; */
+  overflow: hidden;
   border-bottom: white 3px solid;
   line-height: 100vh;
 }
@@ -22,7 +36,7 @@ body {
   line-height: 100vh;
 }
 
-.main-content{
+.main-content {
   text-align: center;
   vertical-align: middle;
   line-height: 1.5;
@@ -30,24 +44,24 @@ body {
   width: 100%;
 }
 
-.main-content h1{
+.main-content h1 {
   padding-bottom: 3%;
 }
 
 .to-the-topp {
   border-radius: 50%;
-  padding: 2%;
+  padding: 15px;
   display: inline-block;
-  background-image: url('/images/download.png');
+  background-image: url("/images/download.png");
   background-size: cover;
   background-position: 50%;
   border: none;
   opacity: 0.6;
-  margin-top: 5%;
-   outline: none;
-   cursor: pointer;
+  margin-top: 2%;
+  outline: none;
+  cursor: pointer;
 }
 
-.to-the-topp:hover{
+.to-the-topp:hover {
   opacity: 1;
 }
