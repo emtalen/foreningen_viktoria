@@ -22,3 +22,15 @@
 #navigation-content > .active {
   font-size: 270%;
 }
+
+@media screen and (max-width: 400px) {
+  #header {
+    font-size: x-large;
+  }
+  .tab {
+    font-size: large;
+  }
+  #navigation-content > .active {
+    font-size: x-large;
+  }
+}

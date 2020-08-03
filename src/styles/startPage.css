@@ -17,3 +17,9 @@
   width: max-content;
   border-bottom: white 1px solid;
 }
+
+@media screen and (max-width: 400px) {
+  .bunny img {
+    width: 30%;
+  }
+}
