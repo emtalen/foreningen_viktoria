@@ -54,6 +54,8 @@ body {
 @media screen and (max-width: 900px) {
   .main-container {
     height: fit-content;
+    padding-top: 4%;
+    padding-bottom: 4%;
   }
 }
 @media screen and (max-width: 400px) {
