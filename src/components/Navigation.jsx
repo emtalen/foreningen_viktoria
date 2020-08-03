@@ -9,7 +9,7 @@ const Navigation = () => {
         <span></span>
         <Link
           id="header"
-          activeClass=""
+          activeClass="header"
           to="start-page"
           spy={true}
           smooth={true}
