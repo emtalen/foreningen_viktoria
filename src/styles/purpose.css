@@ -2,3 +2,9 @@
   padding-right: 17%;
   padding-left: 17%;
 }
+
+@media screen and (max-width: 400px) {
+  #purpose-text {
+    font-size: small;
+  }
+}

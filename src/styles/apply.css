@@ -68,3 +68,21 @@
 #submit-button:hover {
   opacity: 1;
 }
+
+@media screen and (max-width: 400px) {
+  #apply-header  {
+    font-size: xx-large;
+  }
+
+  #applyform {
+    width: 90%;
+  }
+
+  #submit-button{
+    width:30%;
+  }
+
+  #apply-questions {
+    font-size: small;
+  }
+}

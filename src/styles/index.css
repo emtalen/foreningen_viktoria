@@ -1,18 +1,3 @@
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  .main-container {
-    height: fit-content;
-  }
-}
-/* Tabled Portrait */
-@media screen and (max-width: 400px) {
-  #submit-button {
-    width: 100%;
-    background-color: aqua;
-    font-size: 20px;
-  }
-}
-
 body {
   background-color: #adc4cf;
   font-family: "Libre Baskerville", serif;
@@ -64,4 +49,15 @@ body {
 
 .to-the-topp:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .main-container {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 400px) {
+  .to-the-topp {
+    margin-top: 15%;
+  }
 }
