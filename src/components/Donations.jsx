@@ -15,7 +15,7 @@ const Donations = () => {
           <b>Swish:</b> 123-536 74 46
         </p>
         <p id="donations-text">
-          Vid frågor angående donationer, vänligen ta kontakt med Arne Wåhlstedt{" "}
+          Vid frågor angående donationer, vänligen ta kontakt med Arne Wåhlstedt
           <br /> arne.enkoping@gmail.com <br /> 070-5890606
         </p>
         <button

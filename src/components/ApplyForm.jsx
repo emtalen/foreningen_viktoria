@@ -82,8 +82,10 @@ const ApplyForm = () => {
           </button>
         </form>
         <p id="message">{message}</p>
-        <p id='apply-questions'>Vid frågor, vänligen kontakta Arne Wåhlstedt</p>
-        <button className='to-the-topp' onClick={scrollToTop}></button>
+        <p id="apply-questions">
+          Vid frågor angående ansökningar, vänligen ta kontakt med Arne Wåhlstedt
+        </p>
+        <button className="to-the-topp" onClick={scrollToTop}></button>
       </div>
     </div>
   );
