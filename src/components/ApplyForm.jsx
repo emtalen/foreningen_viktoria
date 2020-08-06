@@ -11,10 +11,10 @@ const ApplyForm = () => {
     debugger
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "applicants_foreningen_victoria",
+        "applicants",
         e.target,
-        process.env.REACT_APP_USER_ID
+        "user_lpLITTsEfzW8hWs6z2ACY" 
       )
       .then(
         (result) => {
