@@ -19,7 +19,7 @@ const Navigation = () => {
           FÖRENINGEN VICTORIA
         </Link>
         <br />
-        <Link
+        {/* <Link
           className="tab"
           activeClass="active"
           to="purposes"
@@ -51,7 +51,7 @@ const Navigation = () => {
           duration={700}
         >
           Styrelsen
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
