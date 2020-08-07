@@ -11,21 +11,19 @@ const ApplyForm = () => {
     debugger
     emailjs
       .sendForm(
-        "applicants_foreningen_victoria",
-        "applicants",
+        REACT_APP_SERVICE_ID,
+        REACT_APP_TEMPLATE_ID,
         e.target,
-        "user_lpLITTsEfzW8hWs6z2ACY" 
+        REACT_APP_USER_ID
       )
       .then(
         (result) => {
-          debugger
+          debugger;
           document.getElementById("applyform").reset();
-          setMessage(
-            "Tack för din ansökan. Vi återkopplar dig så snart som möjligt."
-          );
+          setMessage("Tack för din ansökan!");
         },
         (error) => {
-          debugger
+          debugger;
           setMessage(
             "Tyvärr gick något snett här och det beror inte på dig. Vänligen kontakta oss så att vi kan undersöka problemet."
           );
