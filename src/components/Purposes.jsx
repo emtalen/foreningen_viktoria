@@ -13,13 +13,13 @@ const Purposes = () => {
             och ungdomar med särskilda behov / funktionsnedsättning i form av
             att utveckla deras fritidsintressen samt med särskild målsättning
             att utvecklas till sitt bästa jag. Föreningen vänder sig till
-            människor i alla åldrar, oavsett bakgrund. Föreningen ska arbetar
+            människor i alla åldrar, oavsett bakgrund. Föreningen arbetar
             aktivt för att motverka all form av diskriminering.
           </p>
           <p>
             Utdelning <br />
             Utdelning sker varje år till material, hjälpmedel, aktivitet eller
-            liknane som kan mellanslag här stödja den ansökande personen eller
+            liknande som kan stödja den ansökande personen eller
             närstående. Beslutet fattas av föreningens Styrelse.
           </p>
         </div>
