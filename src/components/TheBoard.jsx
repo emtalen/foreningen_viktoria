@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
-import '../styles/theBoard.css'
+import "../styles/theBoard.css";
 
 const TheBoard = () => {
   return (

@@ -12,28 +12,31 @@ import { Link } from "react-scroll";
 const StartPage = () => {
   return (
     <>
-      <div className="main-container-extra" id='start-page'>
+      <div className="main-container-extra" id="start-page">
         <div className="main-content">
           <Navigation />
           <div className="bunny">
             <span>
               <Link
-          activeClass="active"
-          to="donate"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={700}
-        > <img src="/images/1.png" alt="Bunny" /></Link>
-             <Link
-          activeClass=""
-          to="apply"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={700}
-        ><img src="/images/2.png" alt="Bunny" /></Link>
-              
+                activeClass="active"
+                to="donate"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
+                <img src="/images/1.png" alt="Bunny" />
+              </Link>
+              <Link
+                activeClass=""
+                to="apply"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
+                <img src="/images/2.png" alt="Bunny" />
+              </Link>
             </span>
           </div>
         </div>
