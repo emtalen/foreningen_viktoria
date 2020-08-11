@@ -16,7 +16,9 @@ const Donations = () => {
         </p>
         <p id="donations-text">
           Vid frågor angående donationer, vänligen ta kontakt med Arne Wåhlstedt
-          <br /> arne.enkoping@gmail.com <br /> 070-5890606
+          <br /> <a className='link' href="mailto: arne.enkoping@gmail.com">
+            arne.enkoping@gmail.com
+          </a>
         </p>
         <button
           className="to-the-topp"

@@ -53,6 +53,15 @@ body {
   opacity: 1;
 }
 
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 900px) {
   .main-container {
     height: fit-content;

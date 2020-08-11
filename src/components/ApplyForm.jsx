@@ -81,7 +81,12 @@ const ApplyForm = () => {
         </form>
         <p id="message">{message}</p>
         <p id="apply-questions">
-          Vid frågor angående ansökningar, vänligen ta kontakt med Arne Wåhlstedt
+          Vid frågor angående ansökningar, vänligen ta kontakt med Arne
+          Wåhlstedt
+          <br />
+          <a className="link" href="mailto: arne.enkoping@gmail.com">
+            arne.enkoping@gmail.com
+          </a>
         </p>
         <button className="to-the-topp" onClick={scrollToTop}></button>
       </div>
