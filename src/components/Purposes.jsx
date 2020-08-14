@@ -17,7 +17,7 @@ const Purposes = () => {
             aktivt för att motverka all form av diskriminering.
           </p>
           <p>
-            Utdelning <br />
+            <b>Utdelning</b> <br />
             Utdelning sker varje år till material, hjälpmedel, aktivitet eller
             liknande som kan stödja den ansökande personen eller
             närstående. Beslutet fattas av föreningens Styrelse.
